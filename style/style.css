@@ -1,0 +1,96 @@
+:root {
+    --vermelha : #E50914;
+    --preta : #141414;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--preta);
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+}
+
+header .logo {
+    color: var(--vermelha);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    margin-left: 20px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    color: #fff;
+}
+
+.filme-principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('https://www.themoviedb.org/t/p/original/uDsfvUyhtaQZcAkwDPrRgN3SxnX.jpg');
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .container {
+    width: 75%;
+}
+
+.titulo {
+    font-size: 40px;
+    margin-top: 100px;
+}
+
+.sinopse {
+    margin-bottom: 40px;
+    width: 70%;
+}
+
+.btn {
+    background-color: rgba(0,0,0,0.50);
+    border: none;
+    border-radius: 5%;
+    color: whitesmoke;
+    padding: 20px 25px;
+    margin-right: 25px;
+    transition: 500ms ease-in-out all;
+}
+
+.btn:hover {
+    color: rgb(0, 0, 0);
+    background-color: #fff;
+}
+
+.icon {
+    margin-right: 9px;
+}
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel-filme {
+    margin-top: 10px;
+}
